@@ -26,5 +26,4 @@ $censoredText = str_replace($censored, "***", $text);
     <h2>Il testo censurato contiene <?php echo strlen($censoredText) ?> caratteri, ed è:</h2>
     <p><?php echo $censoredText ?></p>
 </body>
-
 </html>
